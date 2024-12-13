@@ -13,11 +13,11 @@
 
     <SearchView
         android:id="@+id/searchViewWisata"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:layout_marginTop="24dp"
-        android:iconifiedByDefault="false"
+        android:layout_gravity="top |center"
         android:background="@drawable/search_bar_background"
         android:queryHint="Cari wisata..."
         app:layout_constraintEnd_toEndOf="parent"

@@ -9,12 +9,12 @@
     <!-- SearchView untuk pencarian -->
     <SearchView
         android:id="@+id/searchViewPenginapan"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:layout_gravity="top |center"
         android:background="@drawable/search_bar_background"
         android:queryHint="Cari penginapan..."
-        android:iconifiedByDefault="false"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

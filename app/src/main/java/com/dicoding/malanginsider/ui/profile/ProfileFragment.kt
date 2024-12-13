@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.dicoding.malanginsider.R
+import com.dicoding.malanginsider.ui.SearchActivity
 import com.dicoding.malanginsider.ui.login.LoginActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
@@ -23,6 +24,13 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         btnBahasa.setOnClickListener {
             navigateToLanguageSettings()
         }
+
+        val btnCari = view.findViewById<Button>(R.id.btn_cari)
+        btnCari.setOnClickListener {
+            val intent = Intent(requireContext(), SearchActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun showLogoutConfirmationDialog() {

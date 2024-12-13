@@ -101,7 +101,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btn_logout"
+        android:id="@+id/btn_cari"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -109,11 +109,28 @@
         android:backgroundTint="@color/biru"
         android:icon="@drawable/ic_favorite"
         android:iconTint="@color/white"
-        android:text="Keluar"
+        android:text="cari wisata tujuan anda"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:cornerRadius="50dp"
         app:layout_constraintTop_toBottomOf="@id/btnBahasa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="@color/biru"
+        android:icon="@drawable/ic_favorite"
+        android:iconTint="@color/white"
+        android:text="Keluar"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnBahasa" />
 </androidx.constraintlayout.widget.ConstraintLayout>
